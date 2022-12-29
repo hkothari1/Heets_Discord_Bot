@@ -8,7 +8,6 @@ const client = new Discord.Client();
 // const client = new Discord.Client({ intents: ["GUILDS", "GUILD_MESSAGES"] });
 
 
-
 const PREFIX="!";
 const{ MessageEmbed }=require("discord.js");
 async function promptMessage(message, author, time, validReactions) {
